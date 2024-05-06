@@ -61,6 +61,7 @@ print(result,unans)
 ```
 
 ## Output
+
 TRACER :
 
 ![Screenshot 2024-04-24 053041](https://github.com/nivethasuresh1408/4.Execution_of_NetworkCommends/assets/152055927/01764015-00f7-4c30-830f-3f2cc2f2816f)
