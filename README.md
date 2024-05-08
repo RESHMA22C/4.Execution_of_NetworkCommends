@@ -28,37 +28,14 @@ This commands includes
 
 ## CODE
 CLIENT :
-```
-import socket 
-from pythonping import ping 
-s=socket.socket() 
-s.bind(('localhost',8000)) 
-s.listen(5) 
-c,addr=s.accept() 
-while True: 
-    hostname=c.recv(1024).decode() 
-    try: 
-        c.send(str(ping(hostname, verbose=False)).encode()) 
-    except KeyError: 
-        c.send("Not Found".encode())
-```
+![image](https://github.com/RESHMA22C/4.Execution_of_NetworkCommends/assets/147474426/50c2c57d-60fa-4f82-bf38-ecd24382c61b)
+
 SERVER :
-```
-import socket 
-s=socket.socket() 
-s.connect(('localhost',8000)) 
-while True: 
-    ip=input("Enter the website you want to ping ") 
-    s.send(ip.encode()) 
-    print(s.recv(1024).decode()) 
-```
+![image](https://github.com/RESHMA22C/4.Execution_of_NetworkCommends/assets/147474426/0e00dee3-4d6e-43c1-865f-3fa9ee659921)
+
 TRACER :
-```
-from scapy.all import* 
-target = ["www.google.com"] 
-result, unans = traceroute(target,maxttl=32) 
-print(result,unans) 
-```
+![image](https://github.com/RESHMA22C/4.Execution_of_NetworkCommends/assets/147474426/27ff1c44-3bd4-4e0b-80e9-4a1bae8f3dc1)
+
 
 ## Output
 
