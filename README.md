@@ -21,7 +21,7 @@ This commands includes
 <BR>
 • Router Processes & Statistics
 <BR>
-• IP Commands
+• IP Commands.
 <BR>
 • Other IP Commands e.g. show ip route etc.
 <BR>
